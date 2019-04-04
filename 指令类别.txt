@@ -1,0 +1,28 @@
+整型二元操作Cint"add","sub","mul","udiv","sdiv","urem","srem","shl","lshr","ashr"
+浮点型二元操作Cfloat"fadd","fsub","fmul","fdiv","frem"
+比较指令Ccmp"icmp","fcmp"
+逻辑操作Cbit"and""or""xor"
+转换操作Cconv"trunc","zext","sext","fptrunc","fpext","fptoui","fptosi","uitofp","sitofp","inttoptr","ptrtoint","bitcast","addrspacecast"
+地址相关的操作Cmem""atomicrmw""fence""getelementptr"
+函数调用指令call"call","ret","br","switch","indirectbr","invoke","callbr","resume","catchswitch","catchret","cleanupret","unreachable","catchpad","va_arg","landingpad","cleanuppad"
+内存读数指令load"load""alloca""store"
+
+//不能分类的
+"shufflevector""extractelement""insertelement"cmpxchg"
+"extractvalue""insertvalue"
+"phi""select"
+   // Terminators
+
+    // Standard binary operators...
+
+   // Logical operators...
+
+    // Memory instructions...
+ 
+    // Convert instructions...
+ 
+    // Other instructions...
+
+
+
+
